@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -69,6 +69,8 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    /* border:2px solid red; */
+
 }
 
 .top-content {
@@ -82,7 +84,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -110,6 +112,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: 5px 5px 2px 1px darkgray;
 }
 
 .bottom-content {
@@ -129,6 +132,7 @@ p {
 footer {
     width: 100%;
     background: black;
+    box-shadow: 5px 5px 2px 1px darkgray;
 }
 
 footer nav {
@@ -143,4 +147,102 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.container .main_nav{
+    display: flex;
+    /* border:2px solid black; */
+    /* justify-content:center; */
+    align-items:flex-end;
+
+}
+
+.container .main_nav a{
+    margin:0px 40px 0 30px;
+    /* border:2px solid blue; */
+    color:black;
+    text-decoration:none;
+
+
+}
+.header_container{
+    width: 795px;
+    margin: 0 auto;
+    /* border:2px solid blue; */
+    display:flex;
+    justify-content:center;
+
+}
+.header_container .header_img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width:800px;
+    box-shadow: 5px 5px 2px 1px darkgray;
+}
+
+.top_content{
+width:800px;
+/* border:2px solid red; */
+display:flex;
+justify-content:center;
+border-bottom: 1px dotted black;
+
+}
+.top_content div{
+    width:750px;
+     /*border:2px solid blue; */
+     margin-bottom: 20px;
+}
+
+.middle_content{
+    margin-top: 20px;
+    width:800px;
+    height:max-content;
+    /* border:2px solid red; */
+    display: flex;
+    flex-wrap:wrap;
+    align-content:center;
+
+}
+.middle_content div{
+    width:375px;
+    /* border:2px solid blue; */
+    margin: 10px;
+    border-bottom:1px dashed black;
+}
+.middle_content div button{
+    margin-top:20px;
+    color:black;
+    background-color:white;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size:16px;
+    border-radius:10px;
+    border:2px solid black;
+    margin-bottom:20px;
+    box-shadow: 5px 5px 2px 1px darkgray;
+}
+
+
+.bottom_content{
+width:800px;
+/* border:2px solid red; */
+display: flex;
+justify-content:center;
+}
+.bottom_content div{
+    width:780px;
+    /* border:2px solid blue; */
+    margin-bottom:40px;
+}
+.contact-title{
+width: 800px;
+border: 2px solid red;
+display:flex;
+justify-content: center;
+}
+
+.contact-title #contact-form{
+margin-top: 20px;
+width: 200px;
 }
