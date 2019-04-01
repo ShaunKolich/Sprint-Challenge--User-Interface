@@ -323,16 +323,16 @@ width: 350px;
 }
 
 .contact_form_img_container{
-margin-top:100px;
-margin-bottom:75px;
-width:800px;
-/* border:2px solid blue; */
-display: flex;
-align-items:flex-end;
-justify-content: center;
+    margin-top:100px;
+    margin-bottom:75px;
+    width:800px;
+    /* border:2px solid blue; */
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
 }
 
 .contact_form_img_container.lambda_picture{
-margin-top:50px;
-margin-bottom:100px;
+    margin-top:50px;
+    margin-bottom:100px;
 }
