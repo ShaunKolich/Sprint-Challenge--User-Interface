@@ -249,7 +249,7 @@ width: 350px;
 /* border:2px solid red; */
 }
 
-.contact-form1{
+.name{
     border: 1px solid black;
     height: 30px;
     width: 250px;
@@ -260,7 +260,7 @@ width: 350px;
     font-size:12pt;
 }
 
-.contact-form2{
+.email{
     border: 1px solid black;
     height: 30px;
     width: 250px;
@@ -270,7 +270,7 @@ width: 350px;
     margin-bottom:15px;
     font-size:12pt;
     }
-.contact-form3{
+.message{
     border: 1px solid black;
     height: 100px;
     width: 250px;
@@ -324,7 +324,7 @@ width: 350px;
 }
 
 .contact_form_img_container{
-    margin-top:100px;
+    margin-top:200px;
     margin-bottom:75px;
     width:800px;
     /* border:2px solid blue; */
@@ -336,4 +336,7 @@ width: 350px;
 .contact_form_img_container.lambda_picture{
     margin-top:50px;
     margin-bottom:100px;
+}
+.status{
+color:red;
 }

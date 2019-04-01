@@ -7,7 +7,9 @@
   <title>Sprint Challenge - About</title>
 
   <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
-  <link rel="stylesheet" href="css/index.css">
+    <script src= "https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+    <script src ="contact.js"></script>
+    <link rel="stylesheet" href="css/index.css">
 
 </head>
 
@@ -26,15 +28,21 @@
             <img class = "header_img" src ="img/jumbo-about.png">
         </header>
 
+    <form action="https://formspree.io/globalxbank@gmail.com" method="POST">
     <section class= "contact-title">
         <div id = "contact-form">
             <h2>Contact Form</h2>
-            <input name = "name" type ="text" class = "contact-form1" placeholder="Your Name" required>
-            <input name = "email" type ="text" class = "contact-form2" placeholder="Email Address" required>
-            <textarea name ="message" class= "contact-form3" placeholder ="Message" required></textarea></br>
-            <button>Submit</button>
+            <input name = "name" type ="name" class = "name" placeholder="Your Name" required>
+
+            <input name = "email" type ="email" class = "email" placeholder="Email Address" required>
+
+            <textarea name ="message" class= "message" placeholder ="Message" required></textarea></br>
+
+            <button class ="submit_button">Submit</button></br>
+            <div class = "status"></div></br>
         </div>
     </section>
+    </form>
 
 <section>
     <div class = "contact_form_img_container">
