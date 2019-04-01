@@ -11,8 +11,8 @@ $(document).ready(function () {
         var email = $('.email').val();//Pulls the email information from input, reference the class
         var message = $('.message').val(); //Pulls the message information from input, reference the class
         var statusELm = $('.status');
-        var statusELm1 = $('.status');
-        var statusELm2 = $('.status');
+        var statusELm = $('.status');
+        var statusELm = $('.status');
         statusELm.empty();
 
         // Creating criteria for inputs to determineif information is Valid.
@@ -26,14 +26,14 @@ $(document).ready(function () {
         if (email.length >= 2 && email.includes('@') && email.includes('.')) {
         } else {
             event.preventDefault(); //Prevents default action
-            statusELm1.append('<div>Email is invalid</div>');//Creates a new div
+            statusELm.append('<div>Email is invalid</div>');//Creates a new div
         }
 
         //Creates a new div
         if (message.length >= 10) {
         } else {
             event.preventDefault(); //Prevents default action
-            statusELm2.append('<div>Message is invalid</div>');//Creates a new div
+            statusELm.append('<div>Message is invalid</div>');//Creates a new div
         }
 
 })
